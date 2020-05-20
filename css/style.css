@@ -11,5 +11,21 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Playfair Display SC", serif;
+    font-family: "Playfair Display SC", serif !important;
+}
+
+.hero {
+    background-image: url(../img/bird-of-paradise.jpg);
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.jumbotron {
+    background-color: #fff;
 }
